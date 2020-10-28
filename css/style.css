@@ -94,6 +94,11 @@ header {
   list-style-type: none;
   text-align: center;
 }
+#products,
+#about-us,
+#what-we-do {
+  scroll-margin-top: 93px;
+}
 
 h2 {
   text-align: center;
