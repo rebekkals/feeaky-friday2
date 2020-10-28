@@ -46,9 +46,13 @@ header {
   text-decoration: none;
   color: black;
 }
+.bilder {
+  display: flex;
+  justify-content: center;
+}
 .snusbilde1 {
   padding-top: 50px;
-  padding-left: 50px;
+
   width: 340px;
   height: 200px;
   object-fit: cover;
@@ -56,7 +60,7 @@ header {
 }
 .snusbilde3 {
   padding-top: 50px;
-  padding-left: 50px;
+
   width: 300px;
   height: 250px;
   object-fit: cover;
@@ -80,22 +84,25 @@ header {
 }
 .paragraph p {
   width: 50%;
-  padding-left: 500px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
 }
+
 .paragraph li {
   padding-top: 10px;
-  padding-left: 510px;
   list-style-type: none;
+  text-align: center;
 }
 
 h2 {
-  padding-left: 500px;
-  width: 35%;
+  text-align: center;
   align-items: center;
   margin: 40px;
   border: 2px;
   background-color: rgba(white, white, white, 0.9);
   font-weight: bold;
+  margin: auto;
 }
 .footer {
   height: 130px;
