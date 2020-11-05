@@ -117,3 +117,13 @@ h2 {
   text-align: center;
   padding-bottom: 20px;
 }
+@media screen and (max-width: 768px) {
+  .bilder {
+    flex-wrap: wrap;
+  }
+  .snusbilde1,
+  .snusbilde3 {
+    width: 30vw;
+    height: 30vw;
+    object-fit: contain;
+  }
